@@ -6,11 +6,11 @@
 //- X é maior que 50
 
 numerosDaSorte = [37, 14, 26, 5, 94, 87]  
-
-if(numerosDaSorte[5]  % 2 == 0 && numerosDaSorte[5] < 50){
-    console.log("O número " + numerosDaSorte[i] , "é par e menor que 50")
-}else if (numerosDaSorte[5] < 50){
-    console.log("O número " + numerosDaSorte[5], "é menor que 50")
+for(let i = 0; i < numerosDaSorte.length; i++)
+if(numerosDaSorte[i]  % 2 == 0 && numerosDaSorte[i] < 50){
+    console.log("O número " + numerosDaSorte[i] , "é par e menor que 50: ", "50 -", numerosDaSorte[i],"=", 50 - numerosDaSorte[i]  )
+}else if (numerosDaSorte[i] < 50){
+    console.log("O número " + numerosDaSorte[i], "é menor que 50: ", "50 -", numerosDaSorte[i],"=", 50 - numerosDaSorte[i] )
 }else{
-    console.log("O número " + numerosDaSorte[5], "é maior que 50")
+    console.log("O número " + numerosDaSorte[i], "é maior que 50: ", numerosDaSorte[i],"- 50 =", numerosDaSorte[i] - 50)
 }
